@@ -8,14 +8,12 @@ namespace Full_GRASP_And_SOLID.Library
 {
     public class Equipment
     {
+        public string Description { get; set; }
+        public double HourlyCost { get; set; }
         public Equipment(string description, double hourlyCost)
         {
             this.Description = description;
             this.HourlyCost = hourlyCost;
         }
-
-        public string Description { get; set; }
-
-        public double HourlyCost { get; set; }
     }
 }
