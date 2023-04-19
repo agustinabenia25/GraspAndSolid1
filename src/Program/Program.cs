@@ -63,3 +63,11 @@ namespace Full_GRASP_And_SOLID
         }
     }
 }
+/*
+
+Según el patrón Expert, una acción debería ser llevada a cabo por la clase que tenga toda
+la información necesaria para completarla.
+En este caso, si le pedimos a cada Step que sepa su propio precio (para lo cual tienen la info necesaria),
+la clase Recipe debería ser la encargada de calcular el precio total de una receta.
+
+*/

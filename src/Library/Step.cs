@@ -20,7 +20,7 @@ namespace Full_GRASP_And_SOLID.Library
             this.Input = input;
             this.Time = time;
             this.Equipment = equipment;
-            this.Cost = equipment.HourlyCost * time + input.UnitCost * quantity;
+            this.Cost = (equipment.HourlyCost * time) + (input.UnitCost * quantity);
         }
     }
 }
